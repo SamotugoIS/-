@@ -1,0 +1,160 @@
+body {
+	font-family: "EBGaramondRegular", sans-serif;
+	font-size: 16px;
+}
+.top_header{
+background: linear-gradient(0deg,#FFF 10%, #20AEA9, #455C71);
+}
+.top_links{
+display: inline-block;
+vertical-align: middle;
+}
+.top_links a{
+text-decoration: underline;
+}
+.top_links a:hover {
+text-decoration: none;
+}
+.soc_buttons{
+	float: right;
+	font-size: 25px;
+	margin-left: 10px;
+}
+.soc_buttons a , .contacts a{
+	color: #fff;
+}
+.contacts{
+	float: right;
+	padding: 10px;
+	display: block;
+}
+.logo{
+	color: white;
+	display: block;
+	font-family: "KobzarKSRegular"; 
+	font-size: 25px;
+	margin-top: 15px;
+}
+ .logo h2{
+ 	margin-bottom: 0;
+ }
+  .logo h4{
+ 	margin-bottom: 30px;
+ }
+h4{
+	padding: 0;
+	margin: 0;
+}
+.main_menu{
+	background-color: #2D5D63;
+	color: #fff;
+	margin-bottom:20px;
+}
+.main_menu ul{
+	margin: auto;
+	padding: auto;
+	z-index: 12;
+}
+.main_menu li {
+	display: inline-block;
+	list-style: none;
+}
+.main_menu a{
+	color:white;
+	display: block;
+	padding: 10px;
+	transition: all 500ms;
+}
+.main_menu a:hover{
+	text-decoration: underline;
+}
+
+.main_menu_button{
+	background-color:transparent;
+	border: none;
+	font-size: 25px
+}
+h1{
+	color: #fff;
+	text-align: center;
+	font-size: 25px;
+}
+section.order{
+	padding:20px;
+}
+.button {
+	background-color:#2D5D63;
+	border-radius: 5px;
+	padding: 5px 10px;
+	color:#fff;
+}
+.order .button {
+	float: right;
+}
+#callback input{
+width: 60%;	
+}
+#callback .button{
+margin: auto;
+clear: both;
+float:none;	
+}
+.content {
+	margin-bottom: 35px;
+}
+.content img{
+	max-width: 100%;
+	border-radius: 5px;
+}
+.blog_item {
+	border: 1px solid silver;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+}
+.blog_item:hover{
+	background-color: #E2EDF6;
+	 box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	 -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	 filter: progid:DXImageTransform.Microsoft.shadow(direction=120, color=#000000, strength=10);
+}
+.blog_item a {
+	text-decoration: underline;
+}
+.read_more{
+	float: right;
+	position: absolute;
+	right: 20px;  	
+}
+.read_more_p{
+	display: none;
+}
+.more_news{
+	text-align: center;
+}
+.more_news a{
+	font-size: 20px ;
+}
+.additional{
+	display: none;
+}
+.aside{
+	border: 1px solid silver;
+	border-radius: 5px;
+}
+
+footer{
+	border-top: 1px solid silver;
+}
+.partners {
+	margin:20px;
+}
+address div{
+	background-color: #2D5D63;
+}
+address a{
+	float:left;
+	margin:10px 15px;
+	color: #fff;
+}
